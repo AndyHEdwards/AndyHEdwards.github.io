@@ -127,7 +127,10 @@ Page: about;
 	max-width: 150px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
+}
 
+body{
+background-image: url("../img/blueprint-1.jpg")
 
 }
 /*************************
@@ -168,7 +171,8 @@ Colours
 /* Site body */
 body {
 	background-color: #fff;
-	color: #999;
+	color: black
+;
 }
 
 /* green Header */
@@ -176,7 +180,7 @@ header{
 	background: blue;
 
 	border-color: blue;
-	background-image: linear-gradient(to right, grey, white);
+	background-image: linear-gradient(to right, #2f4f4f, white);
 }
 
 /* logo text */
