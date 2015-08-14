@@ -1,85 +1,133 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Bespoke Development | Elegent Design</title>
-		<link rel= "stylesheet" href ="CSS/normalize.css">
-		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Great+Vibes|Kaushan+Script' rel='stylesheet' type='text/css'>
-		<link rel= "stylesheet" href ="CSS/Main.css">
-		<link rel= "stylesheet" href ="CSS/Responsive.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
 
-		<header>
-			<a href = "index.html" id="logo">
-				<h1> Bespoke Development </h1> 
-				<h2>					Elegent design solutions, to be spoken for... </h2>
-			</a>
-			<nav>
-               <ul >
-               		<li><a href ="index.html" class="selected"> Portfolio</a> </li>
-               		<li><a href ="about.html"> About </a> </li>
-               		<li><a href ="contact.html">contact</a></li>
-               </ul>
-			</nav>	
-		</header>
-		<div id="wrapper">
-			<section>
-				<ul id = "gallery">
-					<li>
-						<a href = "img/BMWvision.jpg">
-							<img src="img/BMWvision.jpg" alt="">
-							<p>The future of fast.</p>
-						</a>
-					</li>
+  <head>
+    <title>Whats Next?</title>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link href="main.css" rel="stylesheet" >
+    
+  </head>
 
-			<li>
-				<a href="img/Kettle.jpg">
-					<img src="img/Kettle.jpg" alt="">
-					<p>Liquid heat</p>
-				</a>
-			</li>
+  <body>
+    <div class="nav">
+      <div class="container">
+<!--         <ul class = "pull-left">
+          <li><a href="#">Name</a></li>
+          <li><a href="#">Browse</a></li>
+        </ul> -->
+        <ul class = "col-md-2">
+          <li><img src = "pictures/logon.png"></li>
+        </ul>
+        <ul class = "pull-right">
+          <li><a href="#">Home</a></li>
+          <li><a href = "#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
 
-			<li>
-				<a href="img/Bike.jpg">
-					<img src="img/Bike.jpg" alt="">
-					<p>Dynamic engineering</p>
-				</a>
-			</li>
-			<li>
-				<a href="img/Toaster.jpg">
-					<img src="img/Toaster.jpg" alt="">
-					<p>Crystal clear</p>
-				</a>
-			</li>
-			<li>
-				<a href="img/City.jpg">
-					<img src="img/City.jpg" alt="">
-					<p>Forced Perspective</p>
-				</a>
-			</li>
-			<li>
-				<a href="img/Building.jpg">
-					<img src="img/Building.jpg" alt="">
-					<p>Building a better future</p>
-				</a>
-			</li>
-
-		</ul>	
-			</section>
-			<footer>
-				<a href ="http://twitter.com"><img src = "img/twitter-wrap.png" alt = "twitter logo" class= "social-icon"></a>
-				<a href = "http://facebook.com">
-				<img src = "img/facebook-wrap.png" alt = "Facebook logo" class= "social-icon"></a>
-				<p> 2015 Bespoke Development.</p>
-			</footer>
-	</div>
-	</body>
+    <div class="jumbotron">
+      <div class="container">
+                       <h1>Whats Next?</h1>
+                        <p>By Andy Edwards</p>
 
 
+      </div>
+    </div> 
+   
+    <div class = "portfolio">
+      <a name = "portfolio"></a>
+        <div class = "container">
+            <h2>Portfolio</h2>
+            <p></p>
+            
+            <div class = "row">
+                <div class = "col-md-4">
+                  <div class = "front">
+                    <div class = "thumbnail">
+                        <img src = "http://anthillfilms.com/wordpress/wp-content/uploads/2015/03/SLorence_unRealWY_008.jpg">
+                        <p>World Record Flip</p>
+                    </div>
+                    </div>
+                    <div class = "thumbnail">
+                        <img src = "http://cdn.mos.bikeradar.com/images/news/2014/07/29/1406669459320-10b61grs4m1he.png">
+                        <p>Dynamic Engineering</p>
+                    </div>
+                </div>
+                    
+                <div class = "col-md-4">
+                    <div class = "thumbnail">
+                        <img src = "http://www.thisiswhyimbroke.com/images/transparent-glass-toaster1-640x532.jpg">
+                        <p>Clarity</p>
+                    </div>
+                    <div class = "thumbnail">
+                        <img src = "http://www.wall321.com/thumbnails/detail/20120228/mountains%20winter%20snow%20trees%20skyline%20sports%20board%20winter%20landscapes%20snowboarding%20snowboard%201920x10_www.wall321.com_94.jpg">
+                        <p>Dropping In </p>
+                    </div>
+                </div>
+                    
+                <div class = "col-md-4">
+                    <div class = "thumbnail">
+                        <img src = "http://t.wallpaperweb.org/wallpaper/abstract/1680x1050/1214648585373.jpg">
+                        <p>Forced Perspectove</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "about">
+      <a name = "about"></a>
+      <h3>About Me</h3>
+        <h4>Who am I?</h4>
+        <p>My name is Andy Edwards and I'm a young enthusiastic entry level developer hoping to make a name for himself in the big scary world of development. This is my first webiste, that will some day form a full resume/portfolio for all my shinanigans. </p>
+        <h4>What do I Do...</h4>
+        <p>I love almost all disciplines of extreme sports but most of all downhilling and skiing. Music is another one of my passions. I have played guitar for the last eight years but love anything with a beat.
+        </p>
+        <h4>Whats Next?</h4>
+        <p>EDA.................
+    </div>
 
 
+
+
+
+
+
+
+
+    <div class="contact">
+      <div class="container">
+        <div class = "row">
+          <div class = "Contact">
+          <h2>Contact <a name = "contact"></a></h2>
+          </div> 
+
+          <div class = "col-md-4">
+            <h3>Email</h3>
+            <p>Feel free to email me at any time on <a href="mailto:andyhedwards@gmail.com">andyhedwards@gmail.com</a></p>
+            <p><a href="#"></a></p>
+          </div>
+          
+          <div class = "col-md-4">
+            <h3>Phone</h3>
+            <p>I'm available by phone on <a href="tel:555-8474">555-8474</a></p>
+            <p><a href="#"></a></p>
+          </div>
+          
+          <div class = "col-md-4">
+            <h3>FaceBook</h3>
+            <p>Or you can find me on Facebook by searching Andy Edwards.</p>
+            <p><a href="#"></a></p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+    <script src="app.js"></script>
+
+  </body>
 </html>
-
