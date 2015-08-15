@@ -1,16 +1,22 @@
 // var main = function(){
-//  $(".nav").hide();
+//  $(".nav").click(function(){
+//  	$(this).
+//  });
 
 // }
-// $(document).ready(main)
 
-// (function($) {
-//     $(document).ready(function() {
-//          $('html, body').animate({
-//            'scrollTop':   $('#portfolio').offset().top
-//          }, 2000);
-//     });
-// })(jQuery);
-// var main = function(){
-// 	$(".nav")
-// }
+ $(document).ready(function($) {
+    $(".scroll").click(function(event) {
+    event.preventDefault();
+    $('html,body').animate( { scrollTop:$(this.hash).offset().top } , 1000);
+    } );
+  } );
+
+ $(document).ready(function(){
+    $('.thumbnail').hover(function() {
+        $(this).addClass('transition');
+ 
+    }, function() {
+        $(this).removeClass('transition');
+    });
+  });

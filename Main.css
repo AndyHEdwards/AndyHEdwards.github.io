@@ -52,6 +52,7 @@ padding-bottom: 50px;
   font-size: 20px;
   color: #fff;
 }
+
 .portfolio {
 background-color: #efefef;
 border-bottom: 1px solid #dbdbdb;
@@ -68,9 +69,15 @@ border-bottom: 1px solid #dbdbdb;
 }
 
 .about{
-  padding-left: 55px;
-
+  padding-right: 30px;
+text-align: center;
+background-image: url(http://newartcolorz.com/images/2014/7/desktop-backgrounds-8683-9020-hd-wallpapers.jpg);
+background-repeat: no-repeat;
+opacity:0.7;
+color:black;
+font-family: 'Shift'
 }
+
 .about h4{
   text-decoration: underline;
 }
@@ -88,6 +95,20 @@ border-bottom: 1px solid #dbdbdb;
 
 .contact a {
   color: #00b0ff;
+}
+
+.thumbnail {
+    width: 310px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 
